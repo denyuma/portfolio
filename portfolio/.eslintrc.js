@@ -15,6 +15,7 @@ module.exports = {
     "plugin:prettier/recommended",
     "prettier/@typescript-eslint",
     "prettier/react",
+    "plugin:tailwindcss/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -24,7 +25,7 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "react", "import"],
+  plugins: ["@typescript-eslint", "react", "import", "tailwind"],
   settings: {
     "import/resolver": {
       node: {
