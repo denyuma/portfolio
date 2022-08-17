@@ -1,13 +1,11 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import Education from "../components/Education";
 import Hackathon from "../components/Hackathon";
 import ListLayout from "../components/ListLayout";
 import MyCard from "../components/MyCard";
 import Navigation from "../components/Navigation";
 import Skills from "../components/Skills";
-import styles from "../styles/Home.module.css";
+import Career from "../components/Carrer";
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +15,9 @@ const Home: NextPage = () => {
         <MyCard />
         <ListLayout title="Education">
           <Education />
+        </ListLayout>
+        <ListLayout title="Career">
+          <Career />
         </ListLayout>
         <ListLayout title="Skills">
           <Skills />
