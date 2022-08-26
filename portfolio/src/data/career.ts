@@ -22,6 +22,6 @@ export const career = [
     title: "JPHACKS",
     since: "2021.09",
     until: "2021.11",
-    body: "ハッカソンでWEBアプリを作った。予選落ち",
+    body: "ハッカソンでWEBアプリを作った。",
   },
 ];
