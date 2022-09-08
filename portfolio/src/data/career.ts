@@ -12,7 +12,7 @@ export const career = [
     body: "セキュリティを含めたweb技術全盤を学んだ",
   },
   {
-    title: "近畿リサーチセンター",
+    title: "???",
     since: "2021.05",
     until: "present",
     isActive: true,
